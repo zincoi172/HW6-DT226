@@ -63,7 +63,6 @@ def load_data():
         raise e
 
 
-# DAG definition
 default_args = {
     'start_date': datetime(2025, 3, 24),
     'retries': 1,
